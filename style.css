@@ -1,0 +1,331 @@
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+	* {
+		margin: 0px;
+		padding: 0px;
+		font-family: 'Poppins', sans-serif;
+
+	}
+
+	a {
+		color: darkblue;
+		text-decoration: none;
+	}
+
+	nav {
+		width: 100%;
+		background: #202c45;
+		padding: 0px 50px;
+		box-sizing: border-box;
+	}
+
+	nav h1 {
+		margin: 0;
+		padding: 0;
+		float: left;
+		padding: 15px 20px;
+	}
+
+	nav h1 a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	nav ul {
+		float: right;
+	}
+
+	nav ul li {
+		list-style: none;
+		display: inline-block;
+		padding: 20px 30px;
+		transition: .5s;
+	}
+
+	nav ul li a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	nav ul li:hover {
+		background-color: #f2181f
+	}
+
+	.responsive-bar {
+		width: 100%;
+		padding: 10px 30px;
+		box-sizing: border-box;
+		background-color: #202c45;
+		display: none;
+	}
+
+	.responsive-bar h3 {
+		margin: 0;
+		padding: 3px 0px;
+		color: white;
+		float: left;
+		text-decoration: none;
+	}
+
+	.responsive-bar h3 a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.responsive-bar h4 {
+		margin: 0;
+		padding: 5px 10 px;
+		color: white;
+		float: right;
+		background-color: #f2184f;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+
+	.menu {
+		padding: 5px;
+	}
+
+
+
+
+
+
+
+	.top {
+		width: 90%;
+		margin: 30px auto 30px;
+		
+	}
+
+	.top-left {
+		width: 68%;
+		float: left;
+		height: 450px;
+		
+	}
+.imgmain{
+		background: url('img/11.svg') no-repeat;
+		background-position: center;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+}
+
+	.top-right {
+		width: 30%;
+		float: left;
+	
+		height: 450px;
+	}
+
+	.img1 {
+		background: url('img/showcase.jpg') no-repeat;
+		background-position: center;
+		background-size: cover;
+		text-align: center;
+		margin: auto;
+		width: 100%;
+		height: 50%;
+	}
+
+	.img2 {
+		background: url('img/home.svg') no-repeat;
+		background-position: center;
+		background-size: cover;
+		text-align: center;
+		height: 50%;
+		width: 100%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	.main h2 {
+		margin: 10px;
+	}
+
+	.content {
+		width: 90%;
+		margin: 30px auto 30px;
+
+
+	}
+
+	.content .main {
+		width: 100%;
+
+		float: left;
+	}
+
+	.content .sidebar {
+		width: 29%;
+		height: 300px;
+		float: left;
+		border: 1px solid green;
+	}
+
+	.clearfix::after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+
+	.post {
+		width: 95%;
+		height: 250px;
+		margin: 20px auto;
+		border-radius: 5px;
+		background: #202c45;
+		position: relative;
+		color: white;
+	}
+
+	.post img {
+		width: 40%;
+		height: 100%;
+		float: left;
+	}
+
+	.post-preview {
+		width: 55%;
+		padding: 10px;
+		float: right;
+	}
+
+	.post-preview a{
+		text-decoration: none;
+	}
+.post-preview p{
+				padding: 10px;
+				padding-top: 20px;
+}
+	.btn {
+		padding: .5rem 1rem;
+		background: #006669;
+		color: white;
+		border: 1px solid transparent;
+		border-radius: .25rem;
+		float: right;
+	}
+
+	.btn:hover {
+		color: white !important;
+		background: #005255;
+	}
+
+	.read-more {
+		bottom: 10px;
+		right: 10px;
+		position: absolute;
+		border: 1px solid white;
+		background: white;
+		border-radius: 0px;
+		color: #006669 !important;
+		transition: .5s;
+
+	}
+
+	.read-more:hover {
+		color: white !important;
+		background: #006669;
+	}
+
+	.footer {
+		background: #202c45;
+		color: white;
+		text-align: center;
+	}
+
+	@media(max-width:900px) {
+
+		nav {
+			display: none;
+			padding: 0;
+		}
+
+		.responsive-bar {
+			display: block;
+		}
+
+		nav h1 {
+			display: block;
+			float: none;
+		}
+
+		nav ul {
+			float: none;
+		}
+
+		nav ul li {
+			display: block;
+			text-align: center;
+			padding: 15px 20px;
+			background: #141e33;
+			border-bottom: 1px solid rbga(255, 255, 255.1);
+		}
+
+		h1.brand {
+			display: none;
+		}
+
+		.top-right {
+			margin-top: 0;
+			width: 100%;
+			height: 225px;
+		}
+
+		.top-left {
+			width: 100%;
+			margin-bottom: 0;
+		}
+
+		.img1 {
+			width: 49%;
+			height: 100%;
+			float: left;
+		}
+
+		.img2 {
+			width: 49%;
+			height: 100%;
+			float: left;
+		}
+
+		.content .main {
+			width: 100%;
+		}
+
+		.content .sidebar {
+			width: 100%;
+		}
+		.post{
+						height: 500px;
+		}
+		.post img {
+		width: 100%;
+		height: 50%;
+		float: left;
+	}
+
+	.post-preview {
+		width: 100%;
+		
+		float: left;
+	}
+	.top-left{
+					height: 200px;
+	}
+
+	}
+.sidebar h2{
+				margin: 10px;
+}
